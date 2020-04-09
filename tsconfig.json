@@ -11,6 +11,7 @@
     "strict": true,
     "baseUrl": "./",
     "esModuleInterop": true,
+    "listEmittedFiles": true,
     "noEmitOnError": true
   },
   "include": [

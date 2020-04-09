@@ -18,6 +18,12 @@
   ],
   "author": "Dmitry Gusarov <sea.tentacle@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "bugs": {
     "url": "https://github.com/seatentacle/design-tokens/issues"
   },
