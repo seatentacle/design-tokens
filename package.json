@@ -1,6 +1,6 @@
 {
   "name": "@seatentacle/design-tokens",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Design tokens are a set of visual design attributes needed to create custom themes",
   "main": "lib/index.js",
   "scripts": {
