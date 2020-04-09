@@ -1,0 +1,23 @@
+# editors
+.idea
+.vscode
+*.suo
+*.sublime-project
+*.sublime-workspace
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# build
+lib
+
+# misc
+Thumbs.db
+.DS_Store

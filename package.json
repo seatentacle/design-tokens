@@ -1,0 +1,30 @@
+{
+  "name": "@seatentacle/design-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens are a set of visual design attributes needed to create custom themes",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seatentacle/design-tokens.git"
+  },
+  "keywords": [
+    "ui",
+    "design",
+    "tokens"
+  ],
+  "author": "Dmitry Gusarov <sea.tentacle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seatentacle/design-tokens/issues"
+  },
+  "homepage": "https://github.com/seatentacle/design-tokens#readme",
+  "devDependencies": {
+    "@seatentacle/eslint-plugin": "1.2.0",
+    "eslint": "7.0.0-alpha.3",
+    "typescript": "3.8.3"
+  }
+}
