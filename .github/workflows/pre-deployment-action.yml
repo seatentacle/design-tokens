@@ -1,4 +1,4 @@
-name: ESLint Action
+name: Pre-Deployment Action
 on: [pull_request]
 jobs:
   lint:
