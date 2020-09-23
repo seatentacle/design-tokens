@@ -2,11 +2,19 @@
   "name": "@seatentacle/design-tokens",
   "version": "1.1.0",
   "description": "Design tokens are a set of visual design attributes needed to create custom themes",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --ext .ts",
     "test": "jest"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint src --ext .ts --fix"
+    ]
   },
   "repository": {
     "type": "git",
@@ -36,8 +44,10 @@
     "@types/jest": "25.2.1",
     "eslint": "7.0.0-alpha.3",
     "jest": "25.3.0",
+    "lint-staged": "10.4.0",
     "semantic-release": "17.0.4",
     "ts-jest": "25.3.1",
-    "typescript": "3.8.3"
+    "typescript": "3.8.3",
+    "yorkie": "2.0.0"
   }
 }
