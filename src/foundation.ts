@@ -1,14 +1,17 @@
-import palette, { Palette } from './palette';
 import base, { Base } from './base';
+import palette, { Palette } from './palette';
+import typography, { Typography } from './typography';
 
 export type Foundation = {
-  palette: Palette;
   base: Base;
+  palette: Palette;
+  typography: Typography;
 }
 
 const foundation: Foundation = {
-  palette,
   base,
+  palette,
+  typography,
 };
 
 export default foundation;
