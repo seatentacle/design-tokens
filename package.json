@@ -45,7 +45,7 @@
     "eslint": "7.0.0-alpha.3",
     "jest": "25.3.0",
     "lint-staged": "10.4.0",
-    "semantic-release": "17.0.4",
+    "semantic-release": "17.2.3",
     "ts-jest": "25.3.1",
     "typescript": "3.8.3",
     "yorkie": "2.0.0"
